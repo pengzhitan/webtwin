@@ -1,0 +1,57 @@
+# WebTwin 项目依赖包
+# 安装命令: pip install -r requirements.txt
+
+# Web框架
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# HTTP请求
+requests==2.31.0
+
+# 网页解析
+beautifulsoup4==4.12.2
+lxml==4.9.3
+html5lib==1.1
+
+# Selenium WebDriver
+selenium==4.15.2
+webdriver-manager==4.0.1
+
+# 图像处理
+Pillow==10.0.1
+
+# 文件处理
+chardet==5.2.0
+
+# 异步处理
+aiohttp==3.8.6
+aiofiles==23.2.1
+
+# 进度条
+tqdm==4.66.1
+
+# 配置文件
+PyYAML==6.0.1
+
+# 日志
+coloredlogs==15.0.1
+
+# 工具库
+click==8.1.7
+python-dotenv==1.0.0
+
+# 开发工具（可选）
+pytest==7.4.2
+flake8==6.1.0
+
+# 安装说明:
+# 1. 创建虚拟环境: python -m venv venv
+# 2. 激活虚拟环境:
+#    - Windows: venv\Scripts\activate
+#    - Linux/Mac: source venv/bin/activate
+# 3. 安装依赖: pip install -r requirements.txt
+# 4. 运行应用: python app.py
+
+# 注意事项:
+# - 确保Python版本 >= 3.7
+# - 如果使用Selenium，需要安装对应的浏览器驱动
